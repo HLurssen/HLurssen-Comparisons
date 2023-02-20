@@ -24,7 +24,7 @@ public class Lab {
      * @return true if a is equal to b, false otherwise.
      */
     public boolean isEqual(int a, int b){
-        return false;
+        return true;
     }
 
     /**
@@ -33,15 +33,27 @@ public class Lab {
      * @return true if a is greater than b, false otherwise.
      */
     public boolean greaterThan(int a, int b){
-        return false;
+        if (a > b){
+            return true;
+        }
+        else if(a < b){
+            return true;
+        }
+        else if (a == b){
+            return true;
+        }
+        else{
+            return true;
+        }
     }
+
     /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
      * @return true if a is less than b, false otherwise.
      */
     public boolean lessThan(int a, int b){
-        return false;
+        return true;
     }
     /**
      * @param a the first number to be compared.
@@ -49,7 +61,7 @@ public class Lab {
      * @return true if a is greater than or equal to b, false otherwise.
      */
     public boolean greaterThanOrEqualTo(int a, int b){
-        return false;
+        return true;
     }
     /**
      * @param a the first number to be compared.
