@@ -35,17 +35,10 @@ public class Lab {
     public boolean greaterThan(int a, int b){
         if (a > b){
             return true;
+        } else {
+            return false;
         }
-        else if(a < b){
-            return true;
-        }
-        else if (a == b){
-            return true;
-        }
-        else{
-            return true;
-        }
-    }
+}
 
     /**
      * @param a the first number to be compared.

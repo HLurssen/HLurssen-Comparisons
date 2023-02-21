@@ -52,7 +52,7 @@ public class ComparatorsTest {
     public void greaterThanTest2(){
         int a = 1;
         int b = 2;
-        boolean expected = true;
+        boolean expected = false;
         boolean actual = c.greaterThan(a, b);
         Assert.assertEquals(expected, actual);
     }
@@ -66,7 +66,7 @@ public class ComparatorsTest {
         int b = 2;
         boolean expected = false;
         boolean actual = c.greaterThan(a, b);
-        Assert.assertTrue(actual);
+        Assert.assertFalse(actual);
         Assert.assertEquals(expected, actual);
     }
 
